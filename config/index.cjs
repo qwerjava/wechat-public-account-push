@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o-DE26Oha1ok1SnIK7syqCel3ln8',
+      id: 'o-DE26OpGd5G8wYbYJDWrHLJN6RQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'qHes1f4kYHUozMWP30YEG22XJmMWc3FXi7yNey5XawM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝宝', year: '2001', date: '8-15',
+          type: '农历生日', name: '宝宝', year: '2001', date: '8-15',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '宝宝', year: '2001', date: '10-01',
+          type: '新历生日', name: '宝宝', year: '2001', date: '10-01',
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '01-01',
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2020-01-01' },
+        { keyword: 'love_day', date: '2021-01-01' },
       ],
     },
   ],
