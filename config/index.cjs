@@ -21,15 +21,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o-DE26OpGd5G8wYbYJDWrHLJN6RQ',
+      id: 'o-DE26Oha1ok1SnIK7syqCel3ln8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'xtEjHoNutMhl7_TgTzyf4u29VjrljlqfsLYfr6_vXWE',
+      useTemplateId: 'hg8lYabpS6AnJZ3AnrSZ6mKy6VOcbbINAEva9q5dAX4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-01',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '2001', date: '08-15',
+          type: '*生日', name: '小宝贝', year: '2001', date: '08-15',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
